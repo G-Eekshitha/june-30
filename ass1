@@ -1,0 +1,20 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+x=[]
+for i in l:
+    if i not in m:
+        m.append(i)
+    else:
+        x.append(i)
+c=0        
+for i in x:        
+     print(i,end=' ')
+     c=c+1     
+print("the count :",c)
+     
+    
+    
+    8
+2 3 4 2 3 6 7 1
+2 3 the count : 2
